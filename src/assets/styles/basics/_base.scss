@@ -39,7 +39,8 @@ input {
 }
 
 #root{
-  background-color: rgb(255, 167, 167);
+  background-image: url('../../../../public/images/background.jpg');
+  background-size: cover;
 }
 
 .app{
