@@ -44,6 +44,11 @@ input {
 
 .app{
   width: 550px;
-  @include flex();
+  @include flex(column);
   margin: 0 auto;
+  background-color: white;
+  &__card-list{
+    @include flex(column);
+    padding: 0 40px;
+  }
 }
