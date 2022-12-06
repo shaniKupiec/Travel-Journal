@@ -1,3 +1,16 @@
 .header{
-    background-color: rgb(233, 152, 152);
+    @include flex();
+    gap: 7px;
+    background-color: #F55A5A;
+    color: white;
+    height: 55px;
+    width: 100%;
+    &__img{
+        width: 24px;
+    }
+    &__name{
+        font-weight: 500;
+        font-size: 14.5px;
+        text-transform: capitalize;
+    }
 }
